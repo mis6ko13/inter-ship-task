@@ -1,0 +1,25 @@
+{
+  "name": "intern_task",
+  "version": "1.0.0",
+  "description": "microsoft_header+drop_box+invision+oculus+apple_footer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "mis6ko",
+  "license": "ISC",
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "devDependencies": {
+    "connect": "^3.4.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "*",
+    "matchdep": "*",
+    "serve-static": "^1.10.2"
+  }
+}
