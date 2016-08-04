@@ -1,25 +1,27 @@
 {
-  "name": "intern_task",
+  "name": "intern-task",
   "version": "1.0.0",
-  "description": "microsoft_header+drop_box+invision+oculus+apple_footer",
-  "main": "server.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mis6ko13/inter-ship-task.git"
   },
   "author": "mis6ko",
   "license": "ISC",
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
-  },
   "devDependencies": {
-    "connect": "^3.4.1",
-    "grunt": "^1.0.1",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-htmlhint": "*",
-    "matchdep": "*",
-    "serve-static": "^1.10.2"
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-if": "^2.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-useref": "^3.1.0",
+    "run-sequence": "^1.2.2"
   }
 }

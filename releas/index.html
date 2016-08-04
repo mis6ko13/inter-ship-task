@@ -3,16 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="release/css/normalize.min.css">
-	<link rel="stylesheet" href="release/css/microSft.min.css">
-	<link rel="stylesheet" href="release/css/dropBxHero.min.css">
-	<link rel="stylesheet" href="release/css/invision.min.css">
-	<link rel="stylesheet" href="release/css/oculus.min.css">
-	<link rel="stylesheet" href="release/css/apple.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 	<title>Cklm Task App</title>
 </head>
 <body>
-<!---------- Microsoft header------------>
+
 	<header>
 		<div class="header-inner clear-fix">
 		<div class="logo">
@@ -28,7 +23,7 @@
 				<span class="fontawesome-reorder" data-text="reorder"></span>
 			</div>
 			<div class="sign-in button" title='Sign In'>
-				<a  href="#sign-in">Sign In</a>
+				<a  href="#">Sign In</a>
 				</div>
 		</nav>
 		<form method="get" name='searchForm'>
@@ -37,9 +32,7 @@
 		</form>
 		</div>
 	</header>
-<!--	End of header -->
 		<main>
-<!-- Dropbox hero section-->
 		<section class="hero">
 			<div class="hero-container">
 				<h1 class="hero-header">Collaborate faster and more securely</h1>
@@ -49,13 +42,10 @@
 			</div>
 			</div>
 		</section>
-<!--	End of dropbox section	-->
-
-<!--	Invision Sign-in form section  -->
 		<section class="invision-section">
 			<h2 class="invision-header">Join over 2 million designers already using InVision. Get InVision <strong>free</strong> forever!
 			</h2>
-			<form id='sign-in' name='invForm' method="post" novalidate=''>
+			<form name='invForm' method="post" novalidate=''>
 				<label class="fontawesome-user active" data-text="user"><input type="text" placeholder='Your Name' name='userName' id='name' value='' required></label>
 				<label class="fontawesome-envelope active" data-text="envelope"><input type="email" placeholder="Email Address" name='userEmail' id='email' value='' required></label>
 				<label class="fontawesome-lock active" data-text="lock"><input type="password" placeholder='Create a Password' name='userPass' value="" required></label>
@@ -63,8 +53,6 @@
 			</form>
 			<p class="invision-terms">By clicking "Get Started — Free Forever!" I agree to InVision's <a href="#" title="Terms">Terms of Service.</a></p>
 		</section>
-<!--	End of invision section	-->
-<!--	Oculus special section  -->
 		<section class="oculus-section">
 			<div class="special">
 				<div class="image-container"></div>
@@ -88,9 +76,7 @@
 				</div>
 				</div>
 		</section>
-<!--	End of oculus section  -->
 		</main>
-<!--	Apple footer section 	-->
 		<footer class="apple">
 		 <nav class="footer-menu"></nav>
 			<section class="apple-info">
@@ -109,11 +95,7 @@
 					<a href="#"><span class="flag"></span>Utopia</a>
 				</div>
 			</section>
+<script src="js/main.min.js"></script>
 		</footer>
-<!--	End of footer 	-->
-<script src="release/js/helpers.js"></script>
-<script src="release/js/mcrsftHeader.js"></script>
-<script src="release/js/invisionForm.js"></script>
-<script src="release/js/appleFooter.js"></script>
 </body>
 </html>

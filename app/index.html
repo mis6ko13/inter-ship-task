@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--build:css css/main.min.css -->
+	<link rel="stylesheet" href="postcss/normalize.css">
+	<link rel="stylesheet" href="postcss/microSft.css">
+	<link rel="stylesheet" href="postcss/dropBxHero.css">
+	<link rel="stylesheet" href="postcss/invision.css">
+	<link rel="stylesheet" href="postcss/oculus.css">
+	<link rel="stylesheet" href="postcss/apple.css">
+<!--	endbuild -->
+	<title>Cklm Task App</title>
+</head>
+<body>
+
+	<header>
+		<div class="header-inner clear-fix">
+		<div class="logo">
+			<a href="https://www.microsoft.com/" title="Microsoft" target="_blank">
+				<img src="https://assets.onestore.ms/cdnfiles/onestorerolling-1606-01000/shell/v3/images/logo/microsoft.png" alt="Microsoft logo here">
+			</a>
+		</div>
+		<nav class="header-menubar"></nav>
+		<nav class="buttons-list">
+			<div class="search button" title='Toggle search'><span class="fontawesome-search" data-text="search"></span></div>
+			<div class="cart button" title='Cart'><span class="fontawesome-shopping-cart" data-text="shopping-cart"></span></div>
+			<div class="toggle-menu button" title='Toggle menu'>
+				<span class="fontawesome-reorder" data-text="reorder"></span>
+			</div>
+			<div class="sign-in button" title='Sign In'>
+				<a  href="#">Sign In</a>
+				</div>
+		</nav>
+		<form method="get" name='searchForm'>
+			<input type="text" name="searchLine" placeholder="Search Microsoft.com"/>
+			<button type='submit' class="submit"><span class="fontawesome-search" data-text="search"></span></button>
+		</form>
+		</div>
+	</header>
+		<main>
+		<section class="hero">
+			<div class="hero-container">
+				<h1 class="hero-header">Collaborate faster and more securely</h1>
+				<h2 class="hero-sub-header">Boost business productivity with the ultimate file saving and sharing tool that employees love and IT admins trust.</h2>
+				<a class='try-button' href="#">Try free for 30 days</a>
+					<span class="hero-link">or <a href="#">purchase now</a></span>
+			</div>
+			</div>
+		</section>
+		<section class="invision-section">
+			<h2 class="invision-header">Join over 2 million designers already using InVision. Get InVision <strong>free</strong> forever!
+			</h2>
+			<form name='invForm' method="post" novalidate=''>
+				<label class="fontawesome-user active" data-text="user"><input type="text" placeholder='Your Name' name='userName' id='name' value='' required></label>
+				<label class="fontawesome-envelope active" data-text="envelope"><input type="email" placeholder="Email Address" name='userEmail' id='email' value='' required></label>
+				<label class="fontawesome-lock active" data-text="lock"><input type="password" placeholder='Create a Password' name='userPass' value="" required></label>
+				<input type="submit" value='Get started - free forever!' name='formSubmit'>
+			</form>
+			<p class="invision-terms">By clicking "Get Started — Free Forever!" I agree to InVision's <a href="#" title="Terms">Terms of Service.</a></p>
+		</section>
+		<section class="oculus-section">
+			<div class="special">
+				<div class="image-container"></div>
+				<div class="header-container">
+					<h4 class="h4-specia-header">FEATURED CONTENT</h4>
+					<h3 class="h3-special-header">EVE: Valkyrie</h3>
+				</div>
+			</div>
+			<div class="special">
+				<div class="image-container"></div>
+				<div class="header-container">
+					<h4 class="h4-specia-header">INCLUDED WITH ALL RIFT PURCHASES</h4>
+				<h3 class="h3-special-header">Lucky's Tale</h3>
+				</div>
+				</div>
+			<div class="special">
+				<div class="image-container"></div>
+				<div class="header-container">
+				<h4 class="h4-specia-header">FEATURED STORY</h4>
+				<h3 class="h3-special-header">Announcing Oculus Connect 3 and Rift Availability Update</h3>
+				</div>
+				</div>
+		</section>
+		</main>
+		<footer class="apple">
+		 <nav class="footer-menu"></nav>
+			<section class="apple-info">
+				<div class='shop'>
+					More ways to shop: Visit an <a href="#">Apple Store</a>, call 1-800-MY-APPLE, or <a href="#">find a reseller</a>.
+				</div>
+					<div class="copyright">Copyright © 2016 Apple Inc. All rights reserved.</div>
+					<div class="footer-links">
+						<a href="#">Privacy Policy</a> 
+						<a href='#'>Terms of Use</a> 
+						<a href='#'>Sales and Refunds</a> 
+						<a href=''>Legal</a> 
+						<a href='#'>Site Map</a> 
+					</div>
+					<div class='locale'>
+					<a href="#"><span class="flag"></span>Utopia</a>
+				</div>
+			</section>
+<!--build:js js/main.min.js -->
+<script src="js/helpers.js"></script>
+<script src="js/mcrsftHeader.js"></script>
+<script src="js/invisionForm.js"></script>
+<script src="js/appleFooter.js"></script>
+<!--  endbuild  -->
+		</footer>
+</body>
+</html>
