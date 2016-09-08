@@ -20,8 +20,8 @@
 }
 
 .footer-list {
-	margin-bottom: 20px;
-	min-height: 250px;
+	margin-bottom: 15px;
+	height: 275px;
 	-moz-column-count: 5;
 			 column-count: 5;
 }
@@ -116,6 +116,7 @@
 		padding: 32px 16px;
 	}
 	.footer-list {
+		height: 100%;
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-direction: column;
